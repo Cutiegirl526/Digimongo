@@ -1,3 +1,26 @@
+.navigation {
+  float: right;
+  list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 25px 10px;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.clearfix:after {
+  visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
 h1, h2, h3, h6{
   font-family: 'Lato', sans-serif;
 }
@@ -23,6 +46,16 @@ body{
 
 #footer {
   clear: both;
+}
+
+.rawrxd {
+  border-radius: 10px;
+  border: 3px solid gray;
+  padding: 1.5%;
+  width: 23%;
+  float: left;
+  margin: 10px;
+  box-shadow: 2px 2px 1px gray;
 }
 
 h2 {
